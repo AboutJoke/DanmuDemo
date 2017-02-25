@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="#fff"
+    android:orientation="horizontal">
+
+
+    <EditText
+        android:id="@+id/et_danmaku"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="请输入要发送的内容"
+        android:imeOptions="flagNoExtractUi"
+        android:singleLine="true"
+        android:padding="5dp"
+        android:background="#fff"
+        android:textColor="#333"
+        android:textCursorDrawable="@null"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_waring"
+        android:textColor="#999"
+        android:layout_width="25dp"
+        android:gravity="right"
+        android:layout_height="wrap_content"
+        android:text="00" />
+
+    <TextView
+        android:textColor="#333"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:text="/30" />
+
+    <Button
+        android:id="@+id/btn_send_danmaku"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="发送"
+        android:textColor="#fff"
+        android:textSize="12sp" />
+
+
+</LinearLayout>
+
